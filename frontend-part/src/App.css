@@ -1,0 +1,31 @@
+nav {
+  text-align:center;
+  border-bottom: 2px solid #000000;
+}
+nav ul {
+  list-style: none;
+}
+nav ul li {
+  display: inline-block;
+  font-weight: bold;
+}
+nav ul li a {
+  text-decoration: none;
+  color: #000000;
+  padding: 16px 30px;
+}
+nav ul li a.active {
+  background: #000000;
+  color: #ffffff;
+  padding: 16px 30px;
+}
+#page-body {
+  margin: 50px auto 0 auto;
+  max-width: 700px;
+}
+.article-list-item {
+  color: #000000;
+  text-decoration: none;
+  border-bottom: 2px solid #000000;
+  display: block;
+}
