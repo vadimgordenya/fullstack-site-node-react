@@ -1,6 +1,6 @@
 const articles = [
     {
-        name: 'lear-react',
+        name: 'learn-react',
         title: 'The Fastest Way to Learn React',
         content: [
             `

@@ -29,3 +29,38 @@ nav ul li a.active {
   border-bottom: 2px solid #000000;
   display: block;
 }
+#add-comment-form label {
+  width: 100%;
+  display: block;
+}
+#add-comment-form label input,
+#add-comment-form label textarea {
+  padding: 15px;
+  width: 100%;
+}
+.comment {
+  border-bottom: 2px solid #000000;
+}
+#add-comment-form label h4 {
+  display: block;
+  width: 100%;
+  color: #000000;
+  margin-bottom: 5px;
+}
+#add-comment-form button,
+#upvotes-section button {
+  padding: 10px 20px;
+  background: #000000;
+  color: #ffffff;
+  display: block;
+  border: 2px solid #000000;
+  margin-top: 10px;
+  cursor: pointer;
+  transition: 0.5s;
+}
+#add-comment-form button:hover,
+#upvotes-section button:hover {
+  background: #ffffff;
+  color: #000000;
+  border: 2px solid #000000;
+}
